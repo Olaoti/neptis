@@ -1,0 +1,17 @@
+.features{
+    padding: 5rem 0;
+}
+.features_card{
+    margin: 4rem 0 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.8rem;
+}
+.features_card .card{
+    background-color: rgba(79, 70, 115, 0.25);
+    padding: 2rem;
+    border-radius: 8px;
+}
+.features_card .card .card_heading{
+    width: 80%;
+}

@@ -1,0 +1,13 @@
+.intro{
+    padding: 10rem 5%;
+}
+.intro .btn{
+    margin: 4rem 0 4rem;
+    background-color:#A522C3;
+    color: white;
+}
+.intro .img{
+    width: 100%;
+    object-fit: contain;
+    margin: 2rem 0 6rem;
+}
