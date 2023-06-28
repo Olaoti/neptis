@@ -1,5 +1,6 @@
 import React from 'react';
 import '../src/styles/pricing.css';
+import { ReactComponent as Mark} from '../src/Assets/mark.svg';
 function Pricing() {
     const plans = [
         {
@@ -36,7 +37,10 @@ function Pricing() {
                     <button>Get Started</button>
                     {plan.abouts.map(info=>{
                         return(
-                            <p>{info}</p>
+                            <div className='info'>
+                                <Mark/>
+                                <p>{info}</p>
+                            </div>
                         )
                     })}
                 </div>

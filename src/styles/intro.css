@@ -1,5 +1,6 @@
 .intro{
     padding: 10rem 12rem;
+    overflow-x: hidden;
 }
 .intro .btn{
     margin: 4rem 0 4rem;
@@ -10,4 +11,44 @@
     width: 100%;
     object-fit: contain;
     margin: 2rem 0 6rem;
+}
+.intbackground{
+    overflow: hidden;
+}
+.intbackground div{
+    position: absolute;
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+    filter: blur(305px);
+}
+.intbg1{
+    background: rgba(199, 19, 240, 0.45);
+    left: 20%;
+    top: 0;
+    overflow: hidden;
+}
+.intbg2{
+    background: rgba(37, 206, 243, 0.30);
+    right: 0;
+    top: 4%;
+    overflow: hidden;
+}
+@media screen and (max-width:1250px) {
+    .intro h1{
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width:1120px) {
+    .intro{
+        padding: 6rem 6rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .intro{
+        padding: 12rem 4rem 4rem;
+    }
+    .intro h1{
+        font-size: 3.2rem;
+    }
 }

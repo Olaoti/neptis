@@ -59,3 +59,32 @@
     width: 0.2rem;
     background: #A522C3;
 }
+@media screen and (max-width:1120px) {
+    .works{
+        padding:4rem 0 4rem 4rem;
+    }
+    .works .works_content{
+        grid-template-columns: 1fr 1.5fr;
+        gap: 5rem;
+    }
+    .works_content_img{
+        width: 140%;
+     }
+     .works_content_img img{
+         margin-right: -40%;
+     }
+}
+@media screen and (max-width:900px) {
+    .works{
+        padding:4rem 4rem 4rem 4rem;
+    }
+    .works .works_content{
+        display: block;
+    }
+    .works_content_img{
+        width: 100%;
+     }
+     .works_content_img img{
+         margin-right: 0;
+     }
+}

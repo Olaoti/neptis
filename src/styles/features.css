@@ -15,3 +15,21 @@
 .features_card .card .card_heading{
     width: 80%;
 }
+@media screen and (max-width:1120px) {
+    .features{
+        padding: 0 4rem 0;
+    }
+}
+@media screen and (max-width:1050px) {
+    .features_card{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:720px) {
+    .features_card{
+        display: block;
+    }
+    .features_card .card:not(:last-child){
+        margin-bottom:2.4rem;
+    }
+}

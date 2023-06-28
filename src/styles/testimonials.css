@@ -58,3 +58,24 @@
 .person_info .details p{
     margin-top: .2rem;
 }
+@media screen and (max-width:1120px) {
+    .testimonials{
+        padding: 4rem;
+    }
+    .testimonials_content{
+        padding: 4rem 4rem;
+    }
+    
+}
+@media screen and (max-width:900px) {
+    .testimonials{
+        padding: 3rem 4rem 4rem;
+    }
+    .testimonials_content{
+        padding: 4rem 2.4rem;
+    }
+    .person_info{
+        justify-content: left;
+        margin: 3.2rem 2rem 0;
+    }
+}

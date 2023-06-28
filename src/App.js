@@ -5,6 +5,7 @@ import Features from './Features.js';
 import Works from './Works.js';
 import Testimonials from './Testimonials.js';
 import Pricing from './Pricing.js';
+import Footer from './Footer';
 function App() {
   return (
     <div className="app">
@@ -14,6 +15,7 @@ function App() {
       <Works/>
       <Testimonials/>
       <Pricing/>
+      <Footer/>
     </div>
   );
 }
