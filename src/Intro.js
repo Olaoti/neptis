@@ -4,10 +4,6 @@ import intro from "../src/Assets/intro.png"
 function Intro() {
   return (
     <div className="intro">
-        <div className='intbackground'>
-           <div className='intbg1'></div>
-           <div className='intbg2'></div>
-        </div>
         <div className='intro_content'>
           <div className='center'>
               <h1>Transform Your Images into Stunning Websites with Neptis</h1>

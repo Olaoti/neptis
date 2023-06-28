@@ -78,4 +78,7 @@
         justify-content: left;
         margin: 3.2rem 2rem 0;
     }
+    .testimonials h4{
+        font-size: 1.6rem;
+    }
 }

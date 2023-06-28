@@ -82,4 +82,7 @@
         margin-bottom: 1.6rem;
         width: auto;
     }
+    .pricing .pricing_cards .card button{
+        padding: 2rem;
+    }
 }
