@@ -1,0 +1,48 @@
+.pricing{
+    padding: 10rem;
+}
+.pricing .sminfo{
+    padding-bottom: 4rem;
+}
+.pricing .pricing_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.6rem;
+}
+.pricing .pricing_cards .card{
+    padding: 4rem 2.4rem;
+    border-radius: 1.6rem;
+}
+.pricing .pricing_cards .card .smfont{
+    text-transform: capitalize;
+}
+.pricing .pricing_cards .card .price{
+    font-size: 3.2rem;
+    padding-top: 2.4rem;
+    font-weight: 600;
+}
+.pricing .pricing_cards .card.free{
+    background: rgba(165, 34, 195, 0.15);
+}
+.pricing .pricing_cards .card.lite{
+    background: rgba(34, 41, 208, 0.15);
+}
+.pricing .pricing_cards .card.standard{
+    background: rgba(14, 164, 196, 0.15);
+}
+.pricing .pricing_cards .card button{
+    width: 100%;
+    border-radius:18rem;
+    padding: 3.2rem;
+    font-size: 1.6rem;
+    margin: 3.2rem 0;
+}
+.pricing .pricing_cards .card.free button{
+    background: #A522C3;
+}
+.pricing .pricing_cards .card.lite button{
+    background: #2228C3;
+}
+.pricing .pricing_cards .card.standard button{
+    background:  #22A6C3;;
+}
